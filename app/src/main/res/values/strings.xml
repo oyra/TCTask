@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Test</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="start">Start</string>
+    <string name="error">No value</string>
+    <string name="tt_nth_character_request_result">%1$sth Character Request Result:</string>
+    <string name="tt_every_nth_character_request_result">Every %1$sth Character Request Result:</string>
+    <string name="tt_word_counter_request_result">Word Counter Request Result:</string>
+    <string name="number_of_words">Number of occurrences of the word %1$s is %2$d</string>
+    <string name="n">N</string>
+</resources>
