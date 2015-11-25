@@ -21,7 +21,7 @@ public class Log {
         }
     }
 
-    public static void e(String TAG, Exception e) {
+    public static void e(@SuppressWarnings("SameParameterValue") String TAG, Exception e) {
         if (SHOW_LOGS) {
             android.util.Log.e(TAG, "error", e);
         }

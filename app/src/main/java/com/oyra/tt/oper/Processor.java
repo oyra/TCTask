@@ -10,7 +10,7 @@ import java.util.Random;
  */
 public class Processor {
 
-    public static final String[] URL = {"https://www.google.com/", "http://developer.android.com/index.html", "http://developer.android.com/develop/index.html"};
+    private static final String[] URL = {"https://www.google.com/", "http://developer.android.com/index.html", "http://developer.android.com/develop/index.html"};
 
 
     public static final int TT_10TH_CHAR_REQUEST = 70000;

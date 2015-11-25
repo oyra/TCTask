@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
+/** 
  * Created by oyra on 07/06/15.
  */
 public class TextProcessor {
@@ -59,7 +59,7 @@ public class TextProcessor {
      * @return map with words and their numbers
      */
     public HashMap<String, Integer> processToCountWords(String s) {
-        HashMap<String, Integer> words = new HashMap<String, Integer>();
+        HashMap<String, Integer> words = new HashMap<>();
         if (s != null && s.length() > 0) {
 
             Pattern p = Pattern.compile("\\s+");

@@ -51,11 +51,11 @@ public class TextProcessorTest extends AndroidTestCase {
 
     @Test
     public void testProcessToCountWords_validate() {
-        HashMap<String, Integer> validOne = new HashMap<String, Integer>();
+        HashMap<String, Integer> validOne = new HashMap<>();
         validOne.put("12345", 1);
         assertTrue(textProcessor.processToCountWords("12345").equals(validOne));
 
-        HashMap<String, Integer> valid2 = new HashMap<String, Integer>();
+        HashMap<String, Integer> valid2 = new HashMap<>();
         valid2.put("123onetwogoogle", 1);
         valid2.put("google", 2);
         valid2.put("45", 1);
