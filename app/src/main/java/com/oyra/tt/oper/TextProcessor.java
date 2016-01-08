@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/** 
+/**
  * Created by oyra on 07/06/15.
  */
 public class TextProcessor {
